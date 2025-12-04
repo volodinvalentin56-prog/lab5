@@ -1,0 +1,3 @@
+/Users/mbair/Desktop/lab5/build/CMakeFiles/Console_Bank_System.dir
+/Users/mbair/Desktop/lab5/build/CMakeFiles/edit_cache.dir
+/Users/mbair/Desktop/lab5/build/CMakeFiles/rebuild_cache.dir

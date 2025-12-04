@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/Users/mbair/Desktop/lab5/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++20 -arch arm64 -o CMakeFiles/Console_Bank_System.dir/main.cpp.o -c /Users/mbair/Desktop/lab5/main.cpp",
+  "file": "/Users/mbair/Desktop/lab5/main.cpp",
+  "output": "CMakeFiles/Console_Bank_System.dir/main.cpp.o"
+},
+{
+  "directory": "/Users/mbair/Desktop/lab5/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++20 -arch arm64 -o CMakeFiles/Console_Bank_System.dir/screens.cpp.o -c /Users/mbair/Desktop/lab5/screens.cpp",
+  "file": "/Users/mbair/Desktop/lab5/screens.cpp",
+  "output": "CMakeFiles/Console_Bank_System.dir/screens.cpp.o"
+},
+{
+  "directory": "/Users/mbair/Desktop/lab5/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++20 -arch arm64 -o CMakeFiles/Console_Bank_System.dir/trip.cpp.o -c /Users/mbair/Desktop/lab5/trip.cpp",
+  "file": "/Users/mbair/Desktop/lab5/trip.cpp",
+  "output": "CMakeFiles/Console_Bank_System.dir/trip.cpp.o"
+}
+]

@@ -1,0 +1,1 @@
+/usr/bin/clang++ -g -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/Console_Bank_System.dir/main.cpp.o CMakeFiles/Console_Bank_System.dir/screens.cpp.o CMakeFiles/Console_Bank_System.dir/trip.cpp.o -o Console_Bank_System
