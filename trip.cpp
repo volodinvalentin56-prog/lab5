@@ -261,46 +261,35 @@ Trip* addTrip(Trip* head) {
     return head;
 }
 
-
 void printAll(Trip* head) {
     if (head == nullptr) {
         cout << "Список пуст" << endl;
         return;
     }
     
-    cout << "\n=== Все командировки ===" << endl;
-    cout << "------------------------------------------------------------" << endl;
-    cout << "ID  ФИО                  Выезд     Возвращение  Назначение     Деньги" << endl;
-    cout << "------------------------------------------------------------" << endl;
+    cout << "\n=== ВСЕ КОМАНДИРОВКИ ===" << endl;
     
     Trip* current = head;
     int count = 0;
     
     while (current != nullptr) {
-        char fioShow[21];
-        char destShow[16];
-        strncpy(fioShow, current->fio, 20);
-        strncpy(destShow, current->destination, 15);
-        fioShow[20] = '\0';
-        destShow[15] = '\0';
+        // Первая строка: ID и ФИО
+        cout << "ID: " << current->id << " | " << current->fio << endl;
         
-        printf("%-3d %-20s %-9s %-9s %-15s %8.2f\n",
-               current->id,
-               fioShow,
-               current->departureDate,
-               current->returnDate,
-               destShow,
-               current->dailyAllowance);
+        // Вторая строка: всё остальное
+        cout << "   Даты: " << current->departureDate << " - " << current->returnDate;
+        cout << " | Куда: " << current->destination;
+        cout << " | Деньги: " << current->dailyAllowance << " руб." << endl;
+        
+        cout << "   Цель: " << current->purpose << endl;
+        cout << "   ---" << endl;
         
         current = current->next;
         count++;
     }
     
-    cout << "------------------------------------------------------------" << endl;
-    cout << "Всего записей: " << count << endl;
+    cout << "\nВсего записей: " << count << endl;
 }
-
-
 void findTrip(Trip* head) {
     if (head == nullptr) {
         cout << "Список пуст" << endl;
